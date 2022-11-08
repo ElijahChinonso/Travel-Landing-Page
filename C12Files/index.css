@@ -1,0 +1,2065 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-1{
+    background-image: url("nature2.png");
+    background-size: cover;
+    width: 100%;
+    height: 860px;
+}
+
+.up{
+    display: flex;
+}
+
+#sviss-tours{
+    position: absolute;
+    font-size: 39px;
+    font-family: "Gentium Basic", sans-serif;
+    top: 9%;
+    left: 6px;
+    font-weight: bold;
+    color: white;
+}
+
+.nav{
+    position: absolute;
+    /*background-color: whitesmoke;*/
+    display: flex;
+    width: 490px;
+    height: 40px;
+    top: 10%;
+    left: 52%;
+    border: none;
+    border-radius: 40px;
+}
+.nav > p{
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+
+    margin-left: 25px;
+    margin-right: 20px;
+    margin-top: 13px;
+}
+
+#EN{
+    position: absolute;
+    top: -10px;
+    left: 443px;
+}
+
+#arrow-down-0{
+    position: absolute;
+    width: 20px;
+    height: 15px;
+    top: 8px;
+    left: 490px;
+}
+
+.book-now{
+    position: absolute;
+    color: white;
+
+    width: 120px;
+    height: 55px;
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 16px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Inter, sans-serif;
+    top: 6%;
+    left: 87%;
+
+    border-radius: 30px;
+    border: 2px solid white;
+}
+
+#beaches-mountain-activities{
+    position: absolute;
+    top: 270px;
+    left: -2px;
+    font-size: 14px;
+    color: black;
+}
+
+.middle > h1{
+    position: absolute;
+    font-size: 50px;
+    font-family: Inter, sans-serif;
+    top: 300px;
+    left: 4.6%;
+    color: white;
+}
+
+#lets-start-ur-journey{
+    position: absolute;
+    top: 430px;
+    left: -4px;
+    font-size: 20px;
+    color: white;
+}
+.explore-destinations{
+    position: absolute;
+    background-color: orange;
+    width: 240px;
+    height: 65px;
+    top: 495px;
+    left: 4.7%;
+    color: white;
+    text-align: left;
+    font-family: Inter, sans-serif;
+    font-weight: bold;
+    padding-top: 1.4%;
+    padding-left: 25px;
+    border-radius: 55px;
+}
+
+.direction{
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    top: 20px;
+    left: 190px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+#arrow{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 1px;
+    left: 1px;
+}
+
+.outer-div{
+    position: absolute;
+    background: rgba(255, 255, 255, 0.3);
+    width: 90.5%;
+    height: 20%;
+    top: 680px;
+    left: 4.7%;
+    border-radius: 15px;
+}
+
+.inner-div{
+    display: flex;
+}
+
+.div-1 {
+    position: absolute;
+    background-color: white;
+    width: 370px;
+    height: 67px;
+    top: 42px;
+    left: 60px;
+    text-align: center;
+    border-bottom-left-radius: 45px;
+    border-top-left-radius: 45px;
+    border-right: 3px solid whitesmoke;
+}
+
+#home-icon{
+    position: absolute;
+    width: 23px;
+    height: 20px;
+    top: 32%;
+    left: 5%;
+}
+
+#accommodation{
+    margin-top: 17px;
+    margin-left: -170px;
+    font-size: 12px;
+}
+
+#barcelona{
+    margin-top: -46px;
+    margin-left: -150px;
+    font-size: 14px;
+}
+
+#arrow-down-1{
+    position: absolute;
+    width: 15px;
+    height: 11px;
+    top: 40%;
+    left: 85%;
+}
+
+.div-2 {
+    position: absolute;
+    background-color: white;
+    width: 220px;
+    height: 67px;
+    top: 42px;
+    left: 430px;
+    text-align: center;
+    border-right: 3px solid whitesmoke;
+}
+
+#checkin-calendar{
+    position: absolute;
+    width: 49px;
+    height: 25px;
+    top: 32%;
+    left: 10%;
+}
+
+#check-in{
+    margin-top: 17px;
+    margin-left: 28px;
+    font-size: 14px;
+}
+
+#checkin-date{
+    margin-top: -46px;
+    margin-left: 28px;
+    font-size: 11px;
+}
+
+.div-3 {
+    position: absolute;
+    background-color: white;
+    width: 220px;
+    height: 67px;
+    top: 42px;
+    left: 650px;
+    text-align: center;
+    border-right: 3px solid whitesmoke;
+}
+
+#checkout-calendar{
+    position: absolute;
+    width: 49px;
+    height: 25px;
+    top: 32%;
+    left: 10%;
+}
+
+#check-out{
+    margin-top: 17px;
+    margin-left: 28px;
+    font-size: 14px;
+}
+
+#checkout-date{
+    margin-top: -46px;
+    margin-left: 28px;
+    font-size: 11px;
+}
+
+.div-4 {
+    position: absolute;
+    background-color: white;
+    width: 280px;
+    height: 67px;
+    top: 42px;
+    left: 870px;
+    text-align: center;
+    border-bottom-right-radius: 45px;
+    border-top-right-radius: 45px;
+}
+
+#contact-icon{
+    position: absolute;
+    width: 23px;
+    height: 25px;
+    top: 32%;
+    left: 23%;
+}
+
+#guests{
+    margin-top: 17px;
+    margin-left: -7px;
+    font-size: 13px;
+}
+
+#adults{
+    margin-top: -46px;
+    margin-left: -7px;
+    font-size: 11px;
+}
+
+#arrow-down-2{
+    position: absolute;
+    width: 19px;
+    height: 11px;
+    top: 40%;
+    left: 85%;
+}
+
+.div-5{
+    position: absolute;
+    background-color: orange;
+    width: 170px;
+    height: 67px;
+    top: 42px;
+    left: 85%;
+    color: white;
+    font-family: Inter, sans-serif;
+    font-weight: bold;
+    padding-top: 23px;
+    border-radius: 55px;
+}
+
+#search{
+    position: absolute;
+    margin-left: 60px;
+}
+
+
+
+
+.main-2{
+    width: 100%;
+    height: 690px;
+    background-color: white;
+}
+
+#best-destination{
+    position: absolute;
+    top: 900px;
+    left: 510px;
+    font-size: 60px;
+    font-family: Inter, sans-serif;
+}
+
+#after-best-destination{
+    position: absolute;
+    top: 990px;
+    left: 308px;
+    font-size: 25px;
+}
+
+#after-best-destination-1{
+    position: absolute;
+    top: 1030px;
+    left: 298px;
+    font-size: 25px;
+}
+
+.countries{
+    display: flex;
+}
+
+.sevilla-spain{
+    position: absolute;
+    background-color: whitesmoke;
+    top: 1090px;
+    left: 250px;
+    width: 300px;
+    height: 430px;
+    border-radius: 30px;
+}
+
+#sevilla-img{
+    position: absolute;
+    width: 300px;
+    height: 320px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+#sevilla-text{
+    position: absolute;
+    top: 345px;
+    left: -60px;
+    color: black;
+}
+
+#sevilla-price{
+    position: absolute;
+    top: 345px;
+    left: 110px;
+    color: black;
+}
+
+#sevilla-cursor{
+    position: absolute;
+    top: 380px;
+    left: 20px;
+    width: 15px;
+    height: 15px;
+}
+#sevilla-days-trip{
+    position: absolute;
+    top: 380px;
+    left: -20px;
+    font-size: 14px;
+}
+
+
+
+.santorini-greece{
+    position: absolute;
+    background-color: whitesmoke;
+    top: 1090px;
+    left: 600px;
+    width: 300px;
+    height: 430px;
+    border-radius: 30px;
+}
+
+#santorini-img{
+    position: absolute;
+    width: 300px;
+    height: 320px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+#santorini-text{
+    position: absolute;
+    top: 345px;
+    left: -60px;
+    color: black;
+}
+
+#santorini-price{
+    position: absolute;
+    top: 345px;
+    left: 110px;
+    color: black;
+}
+
+#santorini-cursor{
+    position: absolute;
+    top: 380px;
+    left: 20px;
+    width: 15px;
+    height: 15px;
+}
+#santorini-days-trip{
+    position: absolute;
+    top: 380px;
+    left: -20px;
+    font-size: 14px;
+}
+
+
+
+.bali-indonesia{
+    position: absolute;
+    background-color: whitesmoke;
+    top: 1090px;
+    left: 985px;
+    width: 300px;
+    height: 430px;
+    border-radius: 30px;
+}
+
+#bali-img{
+    position: absolute;
+    width: 300px;
+    height: 320px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+#bali-text{
+    position: absolute;
+    top: 345px;
+    left: -60px;
+    color: black;
+}
+
+#bali-price{
+    position: absolute;
+    top: 345px;
+    left: 110px;
+    color: black;
+}
+
+#bali-cursor{
+    position: absolute;
+    top: 380px;
+    left: 20px;
+    width: 15px;
+    height: 15px;
+}
+#bali-days-trip{
+    position: absolute;
+    top: 380px;
+    left: -20px;
+    font-size: 14px;
+}
+
+
+.main-3{
+    background-color: white;
+    width: 100%;
+    height: 790px;
+}
+
+.up-1{
+    position: absolute;
+    top: 1590px;
+    left: 200px;
+}
+
+#quick_safe{
+    font-size: 17px;
+    font-family: Georgia, sans-serif;
+    margin-bottom: 15px;
+    margin-left: 1px;
+}
+h2{
+    font-size: 57px;
+    font-family: Georgia, sans-serif;
+    margin-bottom: 35px;
+}
+
+.square{
+    position: absolute;
+    background-color: orange;
+    width: 30px;
+    height: 30px;
+    top: 210px;
+    border-radius: 5px;
+}
+
+#square-diamond{
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    top: 6px;
+    left: 6px;
+}
+
+.payment{
+    position: absolute;
+    background-color: orangered;
+    width: 30px;
+    height: 30px;
+    top: 322px;
+    border-radius: 5px;
+}
+
+#make-payment{
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    top: 6px;
+    left: 6px;
+}
+
+.car{
+    position: absolute;
+    background-color: midnightblue;
+    width: 30px;
+    height: 30px;
+    top: 428px;
+    border-radius: 5px;
+}
+
+#reach-destination{
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    top: 6px;
+    left: 6px;
+}
+
+h6{
+    font-size: 18px;
+    font-family: Georgia, sans-serif;
+    margin-left: 75px;
+}
+
+p{
+    font-size: 17px;
+    font-family: Inter,sans-serif;
+    margin-bottom: 50px;
+    margin-left: 75px;
+}
+
+
+.image-house{
+    position: absolute;
+    background-color: white;
+    width: 340px;
+    height: 340px;
+    margin-left: 973px;
+    margin-top: 120px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+#house{
+    margin-left: 16px;
+    margin-top: 13px;
+    width: 309px;
+    height: 159px;
+    border-radius: 20px;
+}
+
+#image-text{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 16px;
+    font-family: Inter, sans-serif;
+}
+
+#image-date{
+    margin-top: -39px;
+    margin-left: 20px;
+    font-size: 14px;
+    font-family: Inter, sans-serif;
+}
+
+.leaf{
+    background-color: whitesmoke;
+    width: 30px;
+    height: 30px;
+    margin-top: 12px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+#the_leaf{
+    width: 15px;
+    height: 15px;
+    margin-top: 8px;
+    margin-left: 7px;
+    border-radius: 50%;
+}
+
+.map{
+    background-color: whitesmoke;
+    width: 30px;
+    height: 30px;
+    margin-top: -30px;
+    margin-left: 60px;
+    border-radius: 50%;
+}
+
+#the_map{
+    width: 15px;
+    height: 15px;
+    margin-top: 8px;
+    margin-left: 7px;
+    border-radius: 50%;
+}
+
+
+.cursor{
+    background-color: whitesmoke;
+    width: 30px;
+    height: 30px;
+    margin-top: -30px;
+    margin-left: 100px;
+    border-radius: 50%;
+}
+
+#the_cursor{
+    width: 15px;
+    height: 15px;
+    margin-top: 8px;
+    margin-left: 7px;
+    border-radius: 50%;
+}
+
+#sky-scrapper{
+    width: 15px;
+    height: 23px;
+    margin-top: 19px;
+    margin-left: 20px;
+}
+
+#people_going{
+    margin-top: -21px;
+    margin-left: 50px;
+    font-size: 15px;
+    font-family: Inter, sans-serif;
+}
+
+.image-top-view{
+    position: absolute;
+    background-color: lime;
+    width: 219px;
+    height: 101px;
+    margin-left: 210px;
+    margin-top: -170px;
+    border-radius: 20px;
+}
+
+#top-view{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+#Ongoing{
+    margin-top: -20%;
+    margin-left: 26%;
+    font-size: 12px;
+    font-family: Inter, sans-serif;
+}
+
+#Trip-to-india{
+    margin-top: 2%;
+    margin-left: 26%;
+    font-size: 16px;
+    font-family: Inter, sans-serif;
+}
+
+#forty{
+    margin-top: 4%;
+    margin-left: 26%;
+    font-size: 13px;
+    font-family: Inter, sans-serif;
+}
+
+
+.hr-line{
+    width: 140px;
+    height: 4px;
+    margin-top: 10px;
+    margin-left: 26%;
+    border-radius: 3px;
+    border: none;
+    background-color: whitesmoke;
+    border-left: 63px solid orange;
+}
+
+
+#love{
+    width: 23px;
+    height: 25px;
+    margin-top: 8%;
+    margin-left: 40%;
+}
+
+.Top-tours > h2{
+    position: absolute;
+    top: 2150px;
+    left: 32%;
+    font-size: 59px;
+}
+
+#lorem-ipsum{
+    position: absolute;
+    top: 2240px;
+    left: 24%;
+    font-size: 25px;
+}
+
+#industry{
+    position: absolute;
+    top: 2285px;
+    left: 22.2%;
+    font-size: 25px;
+}
+
+
+
+.main-4{
+    background-color: white;
+    width: 100%;
+    height: 800px;
+}
+
+.up-2{
+    display: flex;
+    position: absolute;
+    top: -25px;
+    left: -80px;
+}
+
+.burj-class{
+    position: absolute;
+    background-color: whitesmoke;
+    width: 240px;
+    height: 310px;
+    top: 2400px;
+    left: 325px;
+    border-radius: 20px;
+}
+
+#khalifa-image{
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    top: 15px;
+    left: 20px;
+    border-radius: 15px;
+}
+
+#burj-text1{
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 20px;
+}
+
+#burj-text2{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+#burj-text3{
+    position: absolute;
+    margin-top: 214px;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+#burj-location{
+    position: absolute;
+    margin-top: 277px;
+    margin-left: 15px;
+    width: 19px;
+    height: 19px;
+}
+
+#dubai-uae{
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 34px;
+    font-size: 14px;
+}
+
+#burj-rupee-icon{
+    position: absolute;
+    margin-top: 279px;
+    margin-left: 145px;
+    width: 14px;
+    height: 14px;
+}
+
+#burj-per-person{
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 165px;
+    font-size: 9px;
+}
+
+#burj-price{
+    position: absolute;
+    margin-top: 278px;
+    margin-left: 165px;
+    font-size: 15px;
+}
+
+
+
+.japan-class{
+    position: absolute;
+    background-color: whitesmoke;
+    width: 240px;
+    height: 310px;
+    top: 2400px;
+    left: 590px;
+    border-radius: 20px;
+}
+
+#japan-image{
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    top: 15px;
+    left: 20px;
+    border-radius: 15px;
+}
+
+#japan-text1{
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+#japan-text2{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+#japan-text3{
+    position: absolute;
+    margin-top: 214px;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+#japan-text4{
+    position: absolute;
+    margin-top: 228px;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+#japan-location{
+    position: absolute;
+    margin-top: 277px;
+    margin-left: 15px;
+    width: 19px;
+    height: 19px;
+}
+
+#shibuya-japan{
+    position: absolute;
+    margin-top: 279px;
+    margin-left: 37px;
+    font-size: 14px;
+}
+
+#japan-rupee-icon{
+    position: absolute;
+    margin-top: 279px;
+    margin-left: 145px;
+    width: 14px;
+    height: 14px;
+}
+
+#japan-per-person{
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 165px;
+    font-size: 9px;
+}
+
+#japan-price{
+    position: absolute;
+    margin-top: 278px;
+    margin-left: 165px;
+    font-size: 15px;
+}
+
+
+.sydney-class{
+    position: absolute;
+    background-color: whitesmoke;
+    width: 240px;
+    height: 310px;
+    top: 2400px;
+    left: 855px;
+    border-radius: 20px;
+}
+
+#sydney-image{
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    top: 15px;
+    left: 20px;
+    border-radius: 15px;
+}
+
+#sydney-text1{
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+#sydney-text2{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+#sydney-text3{
+    position: absolute;
+    margin-top: 214px;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+#sydney-location{
+    position: absolute;
+    margin-top: 277px;
+    margin-left: 15px;
+    width: 19px;
+    height: 19px;
+}
+
+#sydney-aus{
+    position: absolute;
+    margin-top: 279px;
+    margin-left: 37px;
+    font-size: 14px;
+}
+
+#sydney-rupee-icon{
+    position: absolute;
+    margin-top: 279px;
+    margin-left: 145px;
+    width: 14px;
+    height: 14px;
+}
+
+#sydney-per-person{
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 165px;
+    font-size: 9px;
+}
+
+#sydney-price{
+    position: absolute;
+    margin-top: 278px;
+    margin-left: 165px;
+    font-size: 15px;
+}
+
+
+
+.temple-class{
+    position: absolute;
+    background-color: whitesmoke;
+    width: 240px;
+    height: 310px;
+    top: 2400px;
+    left: 1120px;
+    border-radius: 20px;
+}
+
+#temple-image{
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    top: 15px;
+    left: 20px;
+    border-radius: 15px;
+}
+
+#temple-text1{
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+#temple-text2{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+#temple-text3{
+    position: absolute;
+    margin-top: 214px;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+#temple-text4{
+    position: absolute;
+    margin-top: 228px;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+#temple-location{
+    position: absolute;
+    margin-top: 277px;
+    margin-left: 15px;
+    width: 19px;
+    height: 19px;
+}
+
+#bali-indonesia{
+    position: absolute;
+    margin-top: 279px;
+    margin-left: 37px;
+    font-size: 14px;
+}
+
+#temple-rupee-icon{
+    position: absolute;
+    margin-top: 279px;
+    margin-left: 145px;
+    width: 14px;
+    height: 14px;
+}
+
+#temple-per-person{
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 165px;
+    font-size: 9px;
+}
+
+#temple-price{
+    position: absolute;
+    margin-top: 278px;
+    margin-left: 165px;
+    font-size: 15px;
+}
+
+
+
+
+.down-2{
+    display: flex;
+    position: absolute;
+    top: -10px;
+    left: -80px;
+}
+
+.om-beach-class{
+    position: absolute;
+    background-color: whitesmoke;
+    width: 240px;
+    height: 310px;
+    top: 2740px;
+    left: 325px;
+    border-radius: 20px;
+}
+
+#om-image{
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    top: 15px;
+    left: 20px;
+    border-radius: 15px;
+}
+
+#om-text1{
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 20px;
+}
+
+#om-text2{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+#om-text3{
+    position: absolute;
+    margin-top: 214px;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+#om-location{
+    position: absolute;
+    margin-top: 277px;
+    margin-left: 15px;
+    width: 19px;
+    height: 19px;
+}
+
+#gokarna-india{
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 34px;
+    font-size: 14px;
+}
+
+#om-rupee-icon{
+    position: absolute;
+    margin-top: 279px;
+    margin-left: 145px;
+    width: 14px;
+    height: 14px;
+}
+
+#om-per-person{
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 165px;
+    font-size: 9px;
+}
+
+#om-price{
+    position: absolute;
+    margin-top: 278px;
+    margin-left: 165px;
+    font-size: 15px;
+}
+
+
+
+.parga-beach-class{
+    position: absolute;
+    background-color: whitesmoke;
+    width: 240px;
+    height: 310px;
+    top: 2740px;
+    left: 590px;
+    border-radius: 20px;
+}
+
+#parga-image{
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    top: 15px;
+    left: 20px;
+    border-radius: 15px;
+}
+
+#parga-text1{
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+#parga-text2{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+#parga-text3{
+    position: absolute;
+    margin-top: 214px;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+#parga-location{
+    position: absolute;
+    margin-top: 277px;
+    margin-left: 15px;
+    width: 19px;
+    height: 19px;
+}
+
+#parga-greece{
+    position: absolute;
+    margin-top: 279px;
+    margin-left: 37px;
+    font-size: 14px;
+}
+
+#parga-rupee-icon{
+    position: absolute;
+    margin-top: 279px;
+    margin-left: 145px;
+    width: 14px;
+    height: 14px;
+}
+
+#parga-per-person{
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 165px;
+    font-size: 9px;
+}
+
+#parga-price{
+    position: absolute;
+    margin-top: 278px;
+    margin-left: 165px;
+    font-size: 15px;
+}
+
+
+.yokohama-class{
+    position: absolute;
+    background-color: whitesmoke;
+    width: 240px;
+    height: 310px;
+    top: 2740px;
+    left: 855px;
+    border-radius: 20px;
+}
+
+#yokohama-image{
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    top: 15px;
+    left: 20px;
+    border-radius: 15px;
+}
+
+#yokohama-text1{
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+#yokohama-text2{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+#yokohama-text3{
+    position: absolute;
+    margin-top: 214px;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+#yokohama-text4{
+    position: absolute;
+    margin-top: 228px;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+#yokohama-location{
+    position: absolute;
+    margin-top: 277px;
+    margin-left: 15px;
+    width: 19px;
+    height: 19px;
+}
+
+#yoko-china{
+    position: absolute;
+    margin-top: 279px;
+    margin-left: 37px;
+    font-size: 14px;
+}
+
+#yokohama-rupee-icon{
+    position: absolute;
+    margin-top: 279px;
+    margin-left: 145px;
+    width: 14px;
+    height: 14px;
+}
+
+#yokohama-per-person{
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 165px;
+    font-size: 9px;
+}
+
+#yokohama-price{
+    position: absolute;
+    margin-top: 278px;
+    margin-left: 165px;
+    font-size: 15px;
+}
+
+
+.church-class{
+    position: absolute;
+    background-color: whitesmoke;
+    width: 240px;
+    height: 360px;
+    top: 2740px;
+    left: 1120px;
+    border-radius: 20px;
+    border-bottom: 55px solid orange;
+}
+
+#church-image{
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    top: 15px;
+    left: 20px;
+    border-radius: 15px;
+}
+
+#church-text1{
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+#church-text2{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+#church-text3{
+    position: absolute;
+    margin-top: 214px;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+#church-location{
+    position: absolute;
+    margin-top: 277px;
+    margin-left: 15px;
+    width: 19px;
+    height: 19px;
+}
+
+#goa-india{
+    position: absolute;
+    margin-top: 279px;
+    margin-left: 37px;
+    font-size: 14px;
+}
+
+#church-rupee-icon{
+    position: absolute;
+    margin-top: 279px;
+    margin-left: 145px;
+    width: 14px;
+    height: 14px;
+}
+
+#church-per-person{
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 165px;
+    font-size: 9px;
+}
+
+#church-price{
+    position: absolute;
+    margin-top: 278px;
+    margin-left: 165px;
+    font-size: 15px;
+}
+
+#book-now{
+    position: absolute;
+    color: white;
+    margin-left: 46px;
+    margin-top: 320px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Inter, sans-serif;
+}
+
+#direction1{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    margin-top: 320px;
+    margin-left: 154px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+#arrow1{
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    margin-top: 1px;
+    margin-left: -0.5px;
+}
+
+
+.main-5{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 1430px;
+}
+
+.up-3{
+    margin-left: -105px;
+}
+
+#why-sviss-tours{
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 595px;
+    font-size: 55px;
+    font-family: Georgia, sans-serif ;
+}
+
+#girl-with-mobile-phone{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 220px;
+    width: 700px;
+    height: 470px;
+}
+
+.thirty-three-thousand{
+    position: absolute;
+    background-color: white;
+    margin-top: 130px;
+    margin-left: 650px;
+    width: 160px;
+    height: 65px;
+    border-radius: 10px;
+}
+
+#smiling-emoji{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#thirty-three-thousand{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 70px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+#customers{
+    position: absolute;
+    margin-top: 42px;
+    margin-left: 70px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.ninety-plus{
+    position: absolute;
+    background-color: white;
+    margin-top: 130px;
+    margin-left: 820px;
+    width: 160px;
+    height: 65px;
+    border-radius: 10px;
+}
+
+#smiling-emoji2{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#ninety-plus{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 70px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+#destinations{
+    position: absolute;
+    margin-top: 42px;
+    margin-left: 70px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.four-seven{
+    position: absolute;
+    background-color: white;
+    margin-top: 130px;
+    margin-left: 990px;
+    width: 160px;
+    height: 65px;
+    border-radius: 10px;
+}
+
+#star-emoji{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#four-seven{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 70px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+#reviews{
+    position: absolute;
+    margin-top: 42px;
+    margin-left: 70px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#girl-with-mobile-text{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 600px;
+    font-family: Inter, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.down-3{
+    margin-left: -85px;
+}
+
+#our-customer-says{
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 460px;
+    font-size: 50px;
+    word-spacing: 5px;
+    letter-spacing: -3px;
+    font-family: Georgia, sans-serif;
+}
+
+.housing-guy-and-text{
+    position: absolute;
+    /*background-color: darkgreen;*/
+    margin-top: 790px;
+    margin-left: 280px;
+    width: 700px;
+    height: 600px;
+}
+
+
+#boy-yellow-hoodie{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 350px;
+    height: 250px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+.big-horizontal-white-div{
+    position: absolute;
+    background-color: white;
+    margin-top: 260px;
+    margin-left: 20px;
+    width: 630px;
+    height: 340px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 14px;
+    border-left: 15px solid orange;
+}
+
+.small-vertical-orange-div{
+    position: absolute;
+    background-color: orange;
+    margin-top: 50px;
+    margin-left: 40px;
+    width: 1px;
+    height: 140px;
+}
+
+#big-white-div-text{
+    position: absolute;
+    margin-top: 45px;
+    margin-left: -170px;
+    font-family: Inter, sans-serif;
+    font-size: 22px;
+    line-height: 40px;
+}
+
+#david-warner{
+    position: absolute;
+    margin-top: 265px;
+    margin-left: 74px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.stars{
+    display: flex;
+    margin-top: 240px;
+    margin-left:450px;
+
+}
+
+.stars > #one{
+    position: absolute;
+    width: 27px;
+    height: 25px;
+    margin-left: -10px;
+}
+
+.stars > #two{
+    position: absolute;
+    width: 27px;
+    height: 25px;
+    margin-left: 21px;
+}
+
+.stars > #three{
+    position: absolute;
+    width: 27px;
+    height: 25px;
+    margin-left: 51px;
+}
+
+.stars > #four{
+    position: absolute;
+    width: 27px;
+    height: 25px;
+    margin-left: 80px;
+}
+
+.stars > #five{
+    position: absolute;
+    width: 27px;
+    height: 25px;
+    margin-left: 109px;
+}
+
+#five-star{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 490px;font-weight: bold;
+}
+
+.housing-down-three-big-text-view-more{
+    position: absolute;
+    /*background-color: yellow;*/
+    margin-top: 790px;
+    margin-left: 940px;
+    width: 500px;
+    height: 600px;
+}
+
+#down-three-big-text{
+    position: absolute;
+    margin-top: 3px;
+    margin-left: -200px;
+    font-family: Inter, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 42px;
+}
+
+
+.view-more-reviews{
+    position: absolute;
+    background-color: orange;
+    width: 280px;
+    height: 67px;
+    margin-top: 518px;
+    margin-left: 115px;
+    border-radius: 40px;
+}
+
+#view-more-reviews{
+    position: absolute;
+    color: white;
+    margin-left: 30px;
+    margin-top: 22px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Inter, sans-serif;
+}
+
+#direction2{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    margin-top: 21px;
+    margin-left: 222px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+#arrow2{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-top: 1px;
+    margin-left: 1px;
+}
+
+.up-4 {
+    background-image: url("sun-set-hill2.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+}
+
+.inner-up-four{
+    margin-left: -65px;
+}
+
+#subscribe-and-be-updated{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 470px;
+    font-size: 49px;
+    font-family: Georgia, sans-serif;
+    font-weight: bold;
+}
+
+#main-6-text {
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 380px;
+    color: white;
+    font-size: 25px;
+}
+
+.please-enter-email-address{
+    position: absolute;
+    background-color: white;
+    margin-top: 220px;
+    margin-left: 298px;
+    width: 1050px;
+    height: 70px;
+    border-radius: 50px;
+}
+
+#please-enter-email-address{
+    position: absolute;
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+.Subscribe{
+    position: absolute;
+    background-color: orange;
+    margin-top: 6px;
+    margin-left: 845px;
+    width: 200px;
+    height: 59px;
+    border-radius: 50px;
+}
+
+#subscribe{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 65px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.down-4{
+    position: absolute;
+    width: 100%;
+    height: 70px;
+}
+
+.inner-down-four{
+    display: flex;
+    margin-top: 55px;
+    margin-left: -65px;
+}
+
+#travel-plane{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    margin-top: -50px;
+    margin-left: 260px;
+}
+
+.first-footer > p{
+    margin-left: 340px;
+    font-size: 35px;
+    font-family: Georgia, sans-serif;
+    font-weight: bold;
+}
+
+.first-footer > pre{
+    margin-top: -23px;
+    margin-left: 170px;
+    font-size: 15px;
+    font-family: Inter, sans-serif;
+}
+
+.second-footer > p{
+    margin-top: 10px;
+    margin-left: 60px;
+    font-size: 25px;
+    font-family: Georgia, sans-serif;
+    font-weight: bold;
+}
+
+.second-footer > pre{
+    margin-top: -15px;
+    margin-left: -106px;
+    font-size: 15px;
+    font-family: Inter, sans-serif;
+    line-height: 30px;
+}
+
+.third-footer > p{
+    margin-top: 10px;
+    margin-left: 80px;
+    font-size: 25px;
+    font-family: Georgia, sans-serif;
+    font-weight: bold;
+}
+
+.third-footer > pre{
+    margin-top: -15px;
+    margin-left: -86px;
+    font-size: 15px;
+    font-family: Inter, sans-serif;
+    line-height: 30px;
+}
+
+.fourth-footer > p{
+    margin-top: 10px;
+    margin-left: 90px;
+    font-size: 25px;
+    font-family: Georgia, sans-serif;
+    font-weight: bold;
+}
+
+.fourth-footer > pre{
+    margin-top: -15px;
+    margin-left: -76px;
+    font-size: 15px;
+    font-family: Inter, sans-serif;
+    line-height: 30px;
+}
+
+.social-media{
+    display: flex;
+}
+
+.facebook{
+    position: absolute;
+    background-color: whitesmoke;
+    width: 45px;
+    height: 45px;
+    margin-top: 6px;
+    margin-left: 100px;
+    border-radius: 50%;
+}
+
+#facebook{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.instagram{
+    position: absolute;
+    background-color: whitesmoke;
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 170px;
+    border-radius: 50%;
+}
+
+#instagram{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-top: 7px;
+    margin-left: 8px;
+}
+
+.twitter{
+    position: absolute;
+    background-color: whitesmoke;
+    width: 45px;
+    height: 45px;
+    margin-top: 6px;
+    margin-left: 240px;
+    border-radius: 50%;
+}
+
+#twitter{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#discover-our-app{
+    margin-top: 85px;
+    margin-left: 105px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.play-store{
+    position: absolute;
+    background-color: black;
+    width: 112px;
+    height: 35px;
+    margin-top: -40px;
+    margin-left: 105px;
+    border-radius: 30px;
+}
+
+#play-store{
+    position: absolute;
+    width: 21px;
+    height: 23px;
+    margin-top: 6px;
+    margin-left: 12px;
+}
+
+#get-it-on{
+    color: white;
+    font-size: 7px;
+    font-weight: bold;
+    margin-top: 9px;
+    margin-left: 39px;
+    word-spacing: 3px;
+}
+
+#google-play{
+    color: whitesmoke;
+    font-size: 10px;
+    margin-top: -48px;
+    margin-left: 39px;
+    letter-spacing: -1px;
+    word-spacing: 1px;
+}
+
+
+.apple-store{
+    position: absolute;
+    background-color: black;
+    width: 112px;
+    height: 35px;
+    margin-top: -40px;
+    margin-left: 225px;
+    border-radius: 30px;
+}
+
+#apple-store{
+    position: absolute;
+    width: 18px;
+    height: 19px;
+    margin-top: 7px;
+    margin-left: 12px;
+}
+
+#available-on-the{
+    color: white;
+    font-size: 8px;
+    font-weight: bold;
+    margin-top: 9px;
+    margin-left: 39px;
+}
+
+#a-store{
+    color: whitesmoke;
+    font-size: 10px;
+    margin-top: -48px;
+    margin-left: 39px;
+}
+
+#all-right-reserved{
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 685px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+

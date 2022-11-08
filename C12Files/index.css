@@ -1468,7 +1468,6 @@ p{
 }
 
 #why-sviss-tours{
-    position: absolute;
     margin-top: 25px;
     margin-left: 595px;
     font-size: 55px;
@@ -1476,17 +1475,15 @@ p{
 }
 
 #girl-with-mobile-phone{
-    position: absolute;
-    margin-top: 110px;
+    margin-top: -40px;
     margin-left: 220px;
     width: 700px;
     height: 470px;
 }
 
 .thirty-three-thousand{
-    position: absolute;
     background-color: white;
-    margin-top: 130px;
+    margin-top: -450px;
     margin-left: 650px;
     width: 160px;
     height: 65px;
@@ -1518,9 +1515,8 @@ p{
 }
 
 .ninety-plus{
-    position: absolute;
     background-color: white;
-    margin-top: 130px;
+    margin-top: -65px;
     margin-left: 820px;
     width: 160px;
     height: 65px;
@@ -1552,9 +1548,9 @@ p{
 }
 
 .four-seven{
-    position: absolute;
+
     background-color: white;
-    margin-top: 130px;
+    margin-top: -65px;
     margin-left: 990px;
     width: 160px;
     height: 65px;
@@ -1586,8 +1582,7 @@ p{
 }
 
 #girl-with-mobile-text{
-    position: absolute;
-    margin-top: 250px;
+    margin-top: 30px;
     margin-left: 600px;
     font-family: Inter, sans-serif;
     font-size: 25px;
@@ -1599,8 +1594,7 @@ p{
 }
 
 #our-customer-says{
-    position: absolute;
-    margin-top: 700px;
+    margin-top: 170px;
     margin-left: 460px;
     font-size: 50px;
     word-spacing: 5px;
@@ -1609,9 +1603,8 @@ p{
 }
 
 .housing-guy-and-text{
-    position: absolute;
     /*background-color: darkgreen;*/
-    margin-top: 790px;
+    margin-top: -20px;
     margin-left: 280px;
     width: 700px;
     height: 600px;
@@ -1717,9 +1710,8 @@ p{
 }
 
 .housing-down-three-big-text-view-more{
-    position: absolute;
     /*background-color: yellow;*/
-    margin-top: 790px;
+    margin-top: -600px;
     margin-left: 940px;
     width: 500px;
     height: 600px;

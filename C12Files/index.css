@@ -1654,7 +1654,6 @@ p{
 }
 
 #david-warner{
-    position: absolute;
     margin-top: 265px;
     margin-left: 74px;
     font-size: 22px;
@@ -1663,7 +1662,7 @@ p{
 
 .stars{
     display: flex;
-    margin-top: 240px;
+    margin-top: -100px;
     margin-left:450px;
 
 }
@@ -1718,7 +1717,6 @@ p{
 }
 
 #down-three-big-text{
-    position: absolute;
     margin-top: 3px;
     margin-left: -200px;
     font-family: Inter, sans-serif;
@@ -1729,11 +1727,10 @@ p{
 
 
 .view-more-reviews{
-    position: absolute;
     background-color: orange;
     width: 280px;
     height: 67px;
-    margin-top: 518px;
+    margin-top: 20px;
     margin-left: 115px;
     border-radius: 40px;
 }
